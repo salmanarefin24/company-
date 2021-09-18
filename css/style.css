@@ -1,0 +1,567 @@
+/*================
+Font Family POPPINS
+==================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/*=========
+ Gloval CSS
+===========*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.no-padding{
+	padding: 0;
+}
+
+/*============
+Header Section
+==============*/
+header{
+	background: #daac00;
+	padding: 10px 0;
+}
+.navbar>.container-fluid{
+	padding: 0;
+}
+header ul{
+	margin: 0 auto;
+}
+.navbar-light .navbar-nav .nav-link.active{
+	color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 5px 28px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus{
+	border: 2px solid #fff;
+	color: #fff;
+	background: #00bec9;
+}
+.dog-searchbar{
+	margin-top: 22px;
+	border:1px solid #fff;
+	border-radius: 4px;
+}
+.dog-searchbar:focus{
+	box-shadow: none;
+	border:1px solid #00bec9;
+}
+.search-form{
+	position: relative;
+	box-shadow: 2px 9px 12px #8a8686;	
+}
+.btn-search{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    height: 100%;
+    width: 18%;
+    color: #fff;
+    background: #00bec9;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+.btn-search:hover{
+	background: #1a959c;
+}
+
+
+/*============
+ Hero Section
+==============*/
+.hero-section{
+	background: #fcc302;
+	padding: 75px 0;
+}
+.hero-section h1{
+    color: #fff;
+    font-size: 63px;
+    line-height: 65px;
+    margin-top: 125px;	
+}
+.hero-section p{
+    font-size: 24px;
+    padding:20px 30px 20px 0px;
+    color: #fff;
+    line-height: 28px;
+    font-weight: 300;	
+}
+.btn-contact{
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 20px;
+    transition: 0.3s ease-in-out;    	
+}
+.btn-contact:hover{
+	background: #00bec9;
+    border: 2px solid #00bec9;
+}
+
+
+/*============
+Tritmen Section
+==============*/
+.tritmen-section{
+	padding: 75px 0;
+}
+.tritmen-section h2{
+	color: #313243;
+    font-size: 42px;
+    font-weight: 500;
+    margin: 55px 0 0;
+    line-height: 44px;
+}
+.tritmen-section p{
+	color: #313243;
+    font-size: 22px;
+    margin: 0;
+    padding:20px 65px 20px 0;
+    line-height: 27px;
+}
+.btn-tritmen{
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background:#fcc302;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 20px;
+    margin: 10px 0;
+    transition: 0.3s ease-in-out;    	
+}
+.btn-tritmen:hover{
+	background: #00bec9;
+    border: 2px solid #00bec9;
+}
+.btn-video{
+	width: 360px;
+	height: 360px;
+}
+.bg-design{
+	width: 130px;
+	height: 130px;
+	background: #fcc302;
+    margin-top: -117px;
+    margin-left: -20px;	
+}
+
+
+/*============
+Vaccin Section
+==============*/
+.vaccin-section{
+	padding: 75px 0;
+	background: #fcc302; 
+	text-align: center;
+}
+.vaccin-section h2{
+    color: #fff;
+    font-size: 48px;
+    font-weight:700;
+    margin: 0;
+}
+.vaccin-section p{
+    color: #fff;
+    font-size: 22px;
+    padding: 8px 75px;
+}
+/*Vaccin Area*/
+.vaccin-area{
+	padding: 30px 0 0;
+}
+.vaccin-area h4{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 0 5px;
+    margin: 0;
+}
+.vaccin-area p{
+    color: #fff;
+    font-size: 18px;
+    padding: 0px 33px;	
+}
+
+
+/*============
+Tritmen-2 Section
+==============*/
+.tritmen-2-section{
+	padding: 75px 0;
+    text-align: right;	
+}
+.tritmen-2-section h2{
+	color: #313243;
+    font-size: 42px;
+    font-weight: 500;
+    margin: 55px 0 0;
+    line-height: 44px;
+}
+.tritmen-2-section p{
+    color: #313243;
+    font-size: 22px;
+    margin: 0;
+    padding: 20px 0 20px 65px;
+    line-height: 27px;
+}
+.btn-tritmen-2{
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background:#fcc302;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 20px;
+    margin: 10px 0;
+    transition: 0.3s ease-in-out;    	
+}
+.btn-tritmen-2:hover{
+	background: #00bec9;
+    border: 2px solid #00bec9;
+}
+.btn-video-2{
+	width: 360px;
+	height: 360px;
+}
+.bg-design-2{
+	width: 130px;
+    height: 130px;
+    background: #fcc302;
+    margin-top: 251px;
+ 
+    margin-left: -108px;
+    float: right;
+}
+
+
+/*============
+Pricing Section
+==============*/
+.pricing-Section{
+	background: #fcc302; 
+	padding: 75px 0;
+	text-align: center;
+}
+.pricing-Section h2{
+	color: #fff;
+    font-size: 48px;
+    font-weight:700;
+    margin: 0;
+}
+.pricing-Section p{
+	color: #fff;
+    font-size: 22px;
+    padding: 8px 75px;
+}
+/*Price Area*/
+.price-area{
+	padding: 30px 0 0;
+}
+.price-area h4{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 20px 0;
+    margin: 0;	
+}
+.price-area h4 span{
+	padding-left: 15px;
+}
+.btn-buy{
+	padding: 10px 30px;
+    border: none;
+    background: #00bec9;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out;
+}
+.btn-buy:hover{
+	background: #1a959c;
+}
+
+/*============
+  Doctors Team
+==============*/
+.doctors-team{
+	padding:75px 0;
+	text-align: center;
+}
+.doctors-team h2{
+	color: #313243;
+    font-size: 48px;
+    font-weight:700;
+    margin: 0;
+}
+.doctors-team p{
+	color: #313243;
+    font-size: 22px;
+    padding: 8px 75px;
+}
+/*Doctors*/
+.doctors{
+	padding: 30px 0 0;
+}
+.doctors h4{
+    color: #313243;
+    padding: 15px 0 5px;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+.doctors p{
+    padding: 0;
+    font-size: 20px;
+    color: #313243;
+    margin: 0;
+    font-weight: 500;
+}
+.doctors ul{
+	padding: 7px 0 0;
+}
+.doctors ul li{
+	display: inline;
+	padding: 0 5px;
+}
+.doctors ul li a .fa{
+	color: #fff;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: #fcc302;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+.doctors ul li a .fa:hover{
+	transform: scale(1.2);
+	background: #00bec9;
+	color: #fff;
+}
+
+
+/*============
+Happay Client
+==============*/
+.happy-client{
+	background: url(../img/dog-bg.png)no-repeat center top;
+	background-size: cover;
+	position: relative;
+	padding: 150px 0;
+	z-index: 1;
+	text-align: center;
+}
+.happy-client::after{
+	background: rgba(252,195,2,.85);
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+}
+.happy-client h4{
+	margin: 0;
+    padding: 24px 0 10px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+}
+.happy-client h3{
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+/*============
+Post Section
+==============*/
+.post-section{
+	padding:75px 0;
+	text-align: center;
+}
+.post-section h2{
+	color: #313243;
+    font-size: 48px;
+    font-weight:700;
+    margin: 0;
+}
+.post-section p{
+	color: #313243;
+    font-size: 22px;
+    padding: 8px 75px;
+}
+/*Post Area*/
+.post-area{
+	text-align: left;
+	padding: 30px 0 0;
+}
+.post-contant{
+    transition: 0.3s ease-in-out;
+    width: 355px;
+    margin: 0 auto;
+}
+.post-contant:hover{
+	box-shadow: 1px 7px 15px #adb5bd;
+}
+.post-item{
+	border-left: 2px solid #d6d6d6;
+	border-bottom:2px solid #d6d6d6;
+	border-right:2px solid #d6d6d6;
+	padding: 20px;
+	transition: 0.3s ease-in-out;
+}
+.post-contant:hover .post-item{
+	border-left: 2px solid transparent;
+	border-bottom:2px solid transparent;
+	border-right:2px solid transparent;
+}
+.post-item h4{
+	font-weight: 600;
+    color: #313243;
+}
+small{
+	color: #00bec9;
+    font-weight: 600;
+}
+.post-item p{
+    padding: 20px 0;
+    font-size: 15px;
+    margin: 0;
+}
+.post-item a{
+	color: #00bec9;
+	font-weight: 700;
+
+}
+
+
+/*============
+Footer Section
+==============*/
+footer{
+	padding: 75px 0;
+	background: #343434;
+}
+footer h3{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+footer ul li{
+	padding: 5px 0;
+}
+footer ul li a{
+	color: #fff;
+	font-size: 18px;
+	transition: 0.3s ease-in-out;
+}
+footer ul li a:hover{
+	padding-left: 5px;
+	color:#00bec9;
+}
+.footer-title{
+	text-align: right;
+}
+.footer-title p{
+	color: #fff;
+	font-size: 18px;
+}
+/*Form*/
+.footer-searchbar{
+    margin-top: 30px;
+    border: 1px solid #fcc302;
+    border-radius: 4px;
+    padding: 15px;
+    background: #fcc302;
+}
+.footer-searchbar:focus{
+	box-shadow: none;
+	border:1px solid #00bec9;
+	background: #fcc302;
+    color: #fff;
+}
+.footer-form{
+	position: relative;	
+}
+.footer-form .fa{
+	font-size: 24px;
+}
+.btn-footer{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    height: 100%;
+    width: 25%;
+    color: #fff;
+    background: #00bec9;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+.btn-footer:hover{
+	background: #1a959c;
+}
+.footer-title ul{
+	padding: 15px 0 0;
+}
+.footer-title ul li{
+	display: inline;
+	padding: 0 8px;
+}
+.footer-title ul li a .fa{
+    color: #343434;
+    width: 35px;
+    height: 35px;
+    line-height: 36px;
+    font-size: 20px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+.footer-title ul li a:hover{
+	padding-left: 0;
+}
+.footer-title ul li a .fa:hover{
+	transform: scale(1.2);
+	background: #00bec9;
+	color: #fff;
+	
+}
